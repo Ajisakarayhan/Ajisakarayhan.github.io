@@ -1,1 +1,151 @@
+<!DOCTYPE html>
+<!-- HELLO -->
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Lucas Thomazi</title>
 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;900&display=swap" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+  </head>
+
+
+
+
+<!-- Title Page section-->
+
+  <body>
+
+    <div class="title">
+      <section>
+        <h1>Hello World!</h1>
+        <p> This website was originally being served using Nginx on my Raspberry Pi.</p>
+        <p>By<a href="https://www.linkedin.com/in/lucas-de-carvalho-thomazi/">Lucas Thomazi</a></p>
+        
+      </section>
+      
+      <div id="arrow">&#8595;</div>
+      
+  
+
+    </div>
+
+
+<!-- About me section -->
+
+    <section class="blue">
+      
+        <h2>About Me</h2>
+        <p>
+          In 2018, I moved from São Paulo to the United States to attend the University of Maryland. By May 2023, I earned my Bachelor's degree in Mechanical Engineering, having gained considerable knowledge in Computer Science. Most of my experience comes from academic tasks and personal initiatives, such as creating my own Unix Shell in C, a version of Grep, an OCaml interpreter, and several Machine Learning and Data Science projects. Some of these projects can be viewed here, while others are confidential school assignments (like my version of the Unix shell) and therefore cannot be shared publicly. However, I would be glad to provide additional information if asked.
+        </p>
+        <p>
+          I'm naturally curious, always proactive, and continuously seeking to learn more. My strong mathematical background, combined with my understanding of technology and finance, makes me a strong candidate to contribute to all sort of projects.
+        </p>
+        <p>
+          Currently, I am looking for opportunities to apply and expand these skills. To learn more about my experience and journey, visit my<a href = "https://www.linkedin.com/in/lucas-de-carvalho-thomazi/">LinkedIn</a>
+        </p>
+        <p><a href="resume.html">Experience and Skills</a></p>
+    </section>
+
+<!-- My projects section-->
+    <section class="blue">
+      <h2>Some Of My Projects:</h2>
+      <a href="website.html">This Website</a>
+      <a href="capstone.html">My Capstone Project</a>
+      <a href="nn.html">My own NN</a>
+      <a href="sockets.html">ESP32 Sockets</a>
+      <a href="rpi.html">Getting Started With the RPI Pico W</a>
+      <a href="sudoku.html">Sudoku Solver</a>
+      <a href="sqlite.html">SQLite</a>
+    </section>
+
+
+    <section class="bottomMain">
+      <!-- Gears on the left side -->
+      <img id="gear1" class="gear" src="cog-configure-gear-svgrepo-com.svg" alt="Gear image">
+      <img id="gear2" class="gear" src="cog-configure-gear-svgrepo-com.svg" alt="Gear image">
+      <img id="gear3" class="gear" src="cog-configure-gear-svgrepo-com.svg" alt="Gear image">
+      <img id="gear4" class="gear" src="cog-configure-gear-svgrepo-com.svg" alt="Gear image">
+      <img id="gear5" class="gear" src="cog-configure-gear-svgrepo-com.svg" alt="Gear image">
+      <img id="gear6" class="gear" src="cog-configure-gear-svgrepo-com.svg" alt="Gear image">
+      <img id="gear7" class="gear" src="cog-configure-gear-svgrepo-com.svg" alt="Gear image">
+      
+      <!-- Gears on the right side -->
+      <img id="gear8" class="gear" src="cog-configure-gear-svgrepo-com.svg" alt="Gear image">
+      <img id="gear9" class="gear" src="cog-configure-gear-svgrepo-com.svg" alt="Gear image">
+      <img id="gear10" class="gear" src="cog-configure-gear-svgrepo-com.svg" alt="Gear image">
+      <img id="gear11" class="gear" src="cog-configure-gear-svgrepo-com.svg" alt="Gear image">
+      <img id="gear12" class="gear" src="cog-configure-gear-svgrepo-com.svg" alt="Gear image">
+      <img id="gear13" class="gear" src="cog-configure-gear-svgrepo-com.svg" alt="Gear image">
+      <img id="gear14" class="gear" src="cog-configure-gear-svgrepo-com.svg" alt="Gear image">
+      
+      
+    <script>
+        window.onscroll = function () {
+            var rotateDegrees = window.pageYOffset / 2;
+            for (var i = 1; i <= 20; i++) {
+                var direction = i % 2 === 0 ? -1 : 1;
+                document.getElementById('gear' + i).style.transform = 'rotate(' + direction * rotateDegrees + 'deg)';
+            }
+        };
+    </script>
+      
+    <!-- Contact Section -->
+      <div class="blob-content">
+        <h1>Send me a message!</h1>
+        <p><a href = "mailto: lthomazi00@gmail.com?subject = Feedback&body = Message">Email</a></p>
+        <p><a href = "https://www.linkedin.com/in/lucas-de-carvalho-thomazi/">LinkedIn</a></p>
+        <p><a href="https://github.com/lthomazi">Github</a></p>
+      </div>
+     
+     
+     
+      <svg
+        class="blob-motion"
+        id="visual"
+        viewBox="0 0 960 540"
+        width="960"
+        height="540"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <g transform="translate(450.7256843113689 283.4942824330989)">
+          <path
+            id="blob1"
+            d="M148.7 -134.9C193.7 -103.7 231.9 -51.9 232.4 0.6C233 53 196.1 106.1 151.1 128.6C106.1 151.1 53 143 -4.4 147.4C-61.8 151.8 -123.5 168.5 -151.2 146C-178.8 123.5 -172.4 61.8 -172.8 -0.4C-173.1 -62.5 -180.3 -124.9 -152.6 -156.1C-124.9 -187.3 -62.5 -187.1 -5.3 -181.8C51.9 -176.5 103.7 -166 148.7 -134.9"
+            fill="#BB004B"
+          ></path>
+        </g>
+        <g transform="translate(509.54377535978017 281.49390864595887)" style="visibility: hidden">
+          <path
+            id="blob2"
+            d="M115.4 -137.9C137.9 -92.9 136.4 -46.4 133.6 -2.8C130.8 40.8 126.6 81.6 104.1 118.4C81.6 155.2 40.8 188.1 -8.4 196.5C-57.5 204.8 -115 188.7 -151 151.9C-187 115 -201.5 57.5 -190.8 10.7C-180.1 -36.1 -144.1 -72.1 -108.1 -117.1C-72.1 -162.1 -36.1 -216.1 5.2 -221.2C46.4 -226.4 92.9 -182.9 115.4 -137.9"
+            fill="#BB004B"
+          ></path>
+        </g>
+      </svg>
+
+      <!-- Blob animation -->
+      <script>
+        const tween = KUTE.fromTo(
+          '#blob1',
+          { path: '#blob1' },
+          { path: '#blob2' },
+          { repeat: 999, duration: 3000, yoyo: true }
+        ).start();
+      </script>
+
+    </section>
+    
+    
+
+  </body>
+</html>
