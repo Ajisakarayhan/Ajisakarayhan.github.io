@@ -92,6 +92,14 @@ section {
   background-image: url('./title.svg');
 }
 
+.atasan {
+
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-image: url('./atasan.svg');
+}
 
 .spacer {
   aspect-ratio: 960/500;
