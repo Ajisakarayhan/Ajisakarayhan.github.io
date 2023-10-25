@@ -1,0 +1,186 @@
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  word-wrap: normal;
+}
+
+
+/*
+iframe {
+  align-self: center;
+}
+*/
+
+/* img{
+  width: 30%;
+  padding-left: 30%;
+  align-items: center;
+} */
+
+
+
+a {
+  align-items: center;
+  color: white;
+  padding: 0.5rem 0.5rem;
+  text-decoration: underline;
+}
+
+a:hover{
+  border-radius: 25%;
+  background-color: #0b0020;
+  text-decoration: underline;
+}
+
+ul{
+  font-size: 1.5rem;
+  text-align: left;
+  width: 80%;
+  padding-left: 40%;
+  padding-right: 5%;
+  word-wrap: normal;
+}
+
+body {
+  padding-top: 0%;
+  margin: 0;
+  font-family: 'Prompt', sans-serif;
+  color: white;
+  background: #202731;
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 600px;
+  padding-top: 10%;
+}
+
+
+
+.title {
+
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-image: url('./title.svg');
+}
+
+
+.spacer {
+  aspect-ratio: 960/500;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.bottom {
+  aspect-ratio: 2;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-image: url('./bottom.svg');
+}
+
+.bottomMain {
+  aspect-ratio: 2;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('./bottomMainPage.svg');
+}
+
+.contact {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 400px;
+  padding-top: 1px;
+}
+
+
+
+.blue {
+  background: #001220;
+}
+
+.red {
+  background: #FA7268;
+}
+
+.pink {
+  background: #C62368;
+  overflow: hidden;
+}
+
+.dark {
+  background: #0f0f10;
+}
+
+#arrow {
+  position: relative;
+  bottom: 10%;
+  left: 49%;
+  transform: translateX(-50%);
+  z-index: 100;
+  animation: bounce 2s infinite;
+  color: #ffffff;
+  font-size: 50px;
+  padding-left: 50%;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  40% {
+    transform: translateX(-50%) translateY(-30px);
+  }
+  60% {
+    transform: translateX(-50%) translateY(-15px);
+  }
+}
+
+.gear {
+  position: fixed;
+  width: 8vw;
+  height: 8vw;
+}
+
+
+/* SVG background image via https://haikei.app/ */
+
+.flip {
+  transform: rotate(180deg);
+}
