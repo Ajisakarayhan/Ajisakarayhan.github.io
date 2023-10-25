@@ -172,15 +172,6 @@ section {
   }
 }
 
-.gear {
-  position: fixed;
-  width: 8vw;
-  height: 8vw;
-}
-
-
-/* SVG background image via https://haikei.app/ */
-
 .flip {
   transform: rotate(180deg);
 }
