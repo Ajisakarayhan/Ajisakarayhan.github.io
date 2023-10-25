@@ -50,7 +50,7 @@ a {
 
 a:hover{
   border-radius: 25%;
-  background-color: #0b0020;
+  background-color: #000000;
   text-decoration: underline;
 }
 
@@ -132,7 +132,7 @@ section {
 
 
 .blue {
-  background: #001220;
+  background: #000000;
 }
 
 .red {
@@ -145,7 +145,7 @@ section {
 }
 
 .dark {
-  background: #0f0f10;
+  background: #000000;
 }
 
 #arrow {
