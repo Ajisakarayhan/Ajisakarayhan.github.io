@@ -19,46 +19,19 @@
         <div class="title">
                 <a href="index.html">Back to main page</a>  
                 <h1>Motorized Data-Aqcuisiton Cart</h1>
-                <p>As a project for my Machine Design course, I was tasked to design a motorized data-aqcuisition cart. Since the design should consider any surfaces such as the moon, some specifications are restricted thus bringing the best out of each teams' creativity. My team, consists of Andrew Romero, Ben Fong, and Bryan Roeper proposed such design.</p>
+                <p>As a project for my Machine Design course, I was tasked to design a motorized data-aqcuisition cart. Since the design should consider any surfaces such as the moon, some specifications are restricted thus bringing the best out of each teams' creativity. My team, includes Andrew Romero, Ben Fong, and Bryan Roeper proposed such design.</p>
+                <p>Such specifications are minimum and maximum speed of 0.1 m/s and 1 m/s. It must be purely mechanical meaning no controller is allowed, and we were also given weight and cost limit. </p>
         </div>
 
-        <h3>Our Solution</h3>
+        <h3>Our Design</h3>
 
         <p><img src="cdiagram.JPG" alt="cdiagram" width="50%" margin-left="30%"></p>
 
-        <p>I created a Circuit Diagram to better help explain the electrical subsystem of our solution. We would read user's input force on the pedal using torque sensor directly to Arduino Uno R3, which then would calculate just the right amount of force needed to assist user without reducing their efforts. Arduino would send the value to Motor Controller to dictate how much energy the motor should produce before assisting back to the pedal. The system is also equipped with Hall/Magnetic sensor located on the brake lever. The purpose is to shut the motor completely once brake lever is triggered to prevent the motor from continuously accelerating when not needed.</p>
-        <p>Potentiometer is included to manually adjust or limit the motor's maximum output. Step down converter is also required to convert 36V from battery to 5V. Furthermore, since it's designed for a disabled individual, we included an energency button which shuts the whole system down and manual activation is required.</p>
+        <p>We came up with a design consists of 2 motors, 2 gearboxes, 4 individual drive axles and 4 belts driven.</p>
 
-        <h3>Drivetrain</h3>
-
-        <p><img src="drivetrain.JPG" alt="drivetrain" width="50%" margin-left="30%"></p>
-
-        <p>Motor is mounted by a bracket we created in the workshop. The motor chain is linked to a separate chainring driven by the motor. Clutch system is also inserted to allow neutral drive for motor without resisting the user.</p>
-
-        <h3>Motor</h3>
-
-        <p>With specifications of 36V, 350W, 12A rated current with 9 tooth sprocket, it could produce maximum power of 150RPM * Max Torque we want to supply. Our maximum target speed is 20 RPM on pedals by motor for comfort reasons. Therefore, 350-W/(150 RPM * 2pi/60) = 22.28 N-m 0.15 m pedal crank means 22.28 N-m/0.15 m = 148.5 N 148.5/9.81 m/s2 = 15.14 kg = 33.38 lbs 150/20 = 7.5 gear ratio 9 teeth * 7.5 = 67.5 teeth on chainring sprocket = ~59-tooth standard resulting in 6.56 gear ratio thus 150/6.56 = 22.9 RPM 6.56 * 33.38 lbf = 219 lbs > min of 200 lbs. </p>
-
-        <h3>Bottom Bracket</h3>
-
-        <p><img src="stackup.JPG" alt="stackup" width="50%" margin-left="30%"></p>
-
-        <p>Since the torque sensor shaft is located in the bottom bracket, we have designed an assembly sleeve to provide a base for all components such as the chainring, motor chainring, pedal cranks, freewheel clutch, clutch adapter, torque sensor shaft, stator, and adapters.</p>
-
-        <h3>Why Arduino?</h3>
-
-        <p>Engineering students are widely familiar with Arduino Uno, it is a simple microcontroller to program and calculate any desired input as we have used it many times for our projects. With our given budget, could have easily gotten a better controller and it might have been easier to navigate. However, we took this project as a challenge to implement what we have learned from our classes and to show young individuals, specifically our client, that they too could impact the future lives by having the curiousity to learn.</p>
-
-        <h3>Impact and Learning Experience</h3>
-
-        <p>This capstone project has not only provided us with invaluable technical experience but also honed our project management and teamwork skills. Despite numerous challenges, our team persisted, resulting in a successful and functional prototype.</p>
-
-        <p>Having to work with such lovely client made us remember why we wanted to be engineers in the first place, is has been confirmed that another capstone team would further improve our prototype design. I am thrilled to express my gratitude to our instructors and VME for entrusting this project to our team. This project was a significant step in our engineering journey, and we look forward to bringing more innovative solutions to real-world challenges.</p>
-            
-        <p><img src="Team.jpg" alt="Team" width="50%" margin-left="30%"></p>
+        <p>Although due to complexity and the lack of time available in a semester, we did not get to visualize our design with a prototype. It was a challenging yet fun project and I personally believe it would be better if the students have 2 semesters working on this project for prototype development.</p>
        
-        <h4>Check out our presentation<a href="https://docs.google.com/presentation/d/13ZJbYrMrCJpggxYdNavkygLiXghpqzzS/edit?usp=drive_web&ouid=112458470230266905951&rtpof=true">here</a>!</h4>
-        <h4>More about<a href="https://imagemd.org/">VME</a>!</h4>
+        <h4>Check out our presentation<a href="https://docs.google.com/presentation/d/1PF3DHm_vJGWYNlnigS5PmZhzlDjjDz0h/edit#slide=id.p1">here</a>!</h4>
 
         <section class="bottom"></section>
     </body>
