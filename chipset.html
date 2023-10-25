@@ -46,20 +46,21 @@
     <p><img src="stresstest.JPG" alt="stresstest" width="50%" margin-left="30%"></p>
 
     <p>The maximum stress within the model is shown at the corner of the motherboard, however it is believed this is due to the applied clamped condition, and would not be the case should a more detailed model of the larger system be developed.</p>
-    <p>herefore this is considered a non-physical result and is disregarded in the further discussions. There are additional stress concentrations located at the center of the die, and at the edges of the outermost solder balls. The observed stresses in each of the solder balls decreases as their location approaches the center of the chip.</p>
+    <p>Therefore this is considered a non-physical result and is disregarded in the further discussions. There are additional stress concentrations located at the center of the die, and at the edges of the outermost solder balls. The observed stresses in each of the solder balls decreases as their location approaches the center of the chip.</p>
 
     <h3>Heat Distribution</h3>
 
     <p><img src="heatdistribution.JPG" alt="heatdistribution" width="50%" margin-left="30%"></p>
 
-    <p>hThe image shows that the heat generated at the center of the device conducts outward in all directions, and fully dissipates sometime before reaching the edge of the simulated motherboard. It is also interesting to note that the heat is dissipated significantly by the outer cover, but conducts easily through the PWB layers.</p>
+    <p>The image shows that the heat generated at the center of the device conducts outward in all directions, and fully dissipates sometime before reaching the edge of the simulated motherboard. It is also interesting to note that the heat is dissipated significantly by the outer cover, but conducts easily through the PWB layers.</p>
     <p>This is likely due to the high The considerable change in temperature between the center and outer edges further confirms that the stresses shown on the solder balls are real concentrations that could lead to fatigue damage and reliability issues.</p>
 
     <h3>Solution</h3>
 
     <p><img src="stressgw.JPG" alt="stressgw" width="50%" margin-left="30%"></p>
 
-    <p>When underfill is added to the model for all BGAs, the stresses are significantly reduceed. The area where underfill is specifically added lowered the maximum stress by around 60%. Based on these results, it can be surmised that adding underfill has structural benefits. although it does not enhance the heat dissipation properties of the component, it also does not have a negative impact, therefore, it is recommended that underfill be included wherever BGAs are used within the Exynos 7420 to increase the fatigue life of the component, and consequently the whole Galaxy S6 device.</p>
+    <p>When underfill is added to the model for all BGAs, the stresses are significantly reduceed. The area where underfill is specifically added lowered the maximum stress by around 60%. Based on these results, it can be surmised that adding underfill has structural benefits.</p>
+    <p>Although it does not enhance the heat dissipation properties of the component, it also does not have a negative impact. Therefore, it is recommended that underfill be included wherever BGAs are used within the Exynos 7420 to increase the fatigue life of the component, and consequently the whole Galaxy S6 device.</p>
 
     <h4>Check out our report<a href="https://docs.google.com/document/d/1PkPgz9C6dAU-zmvi_qSRfwN5LSUwRXw7/edit">here</a>!</h4>  
     <section class="blue"></section>
