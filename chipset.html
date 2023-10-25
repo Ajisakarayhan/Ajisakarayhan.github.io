@@ -28,40 +28,40 @@
 
         <h3>Disassembly</h3>
 
-        <p><img src="firstd.JPG" alt="firstd" width="45%" margin-left="30%"></p>
+        <p><img src="firstd.JPG" alt="firstd" width="50%" margin-left="30%"></p>
 
         <p>Removing the glass backplate was a bit tricky since we had to melt the waterproof rubber seal with heatgun whiile simultaneously prying the rubber from the edges. However, it was easier to disassemble all sub components such as the Litihium Ion Battery, wireless charging pad, motherboard, fingerprint scanner, speaker, microphone, rear and front camera, alongside SUB board.</p>
         <p>The motherboard contains a significant number of components and is the mounting system for the brains of the device, including the IC chips associated with the CPU, GPU, RAM and other controllers.</p>
 
         <h3>Exynos 7420</h3>
 
-        <p><img src="crossd.JPG" alt="crossd" width="45%" margin-left="30%"></p>
+        <p><img src="crossd.JPG" alt="crossd" width="50%%" margin-left="30%"></p>
 
         <p>The Exynos 7420 is a system on chip (SOC) that utilizes 14 mm FinFET and CMOS technology. It is a fairly complex component, housing 2.5 or 3D packaging techniques where the chips are mounted vertically or horizontally on top of each other to maintain a smaller packaging size yet increased processing capability. The CPU also has 8 cores with a base clock speed of 2.1Ghz and an official thermal design power of 7 watts.</p>
 
         <h3>Detailed Cross-section</h3>
 
-        <p><img src="probd.JPG" alt="probd" width="45%" margin-left="30%"></p>
+        <p><img src="probd.JPG" alt="probd" width="50%" margin-left="30%"></p>
 
         <p>The images above demonstrates a challenge with implementing underfill. Near the top of the solder balls, underfill does not make contact with the solder or the board. Capillary action was not completely effective in filling this space with underfill. </p>
 
         <h3>Stress Analysis</h3>
 
-        <p><img src="stresstest.JPG" alt="stresstest" width="45%" margin-left="30%"></p>
+        <p><img src="stresstest.JPG" alt="stresstest" width="50%" margin-left="30%"></p>
 
         <p>The maximum stress within the model is shown at the corner of the motherboard, however it is believed this is due to the applied clamped condition, and would not be the case should a more detailed model of the larger system be developed.</p>
         <p>herefore this is considered a non-physical result and is disregarded in the further discussions. There are additional stress concentrations located at the center of the die, and at the edges of the outermost solder balls. The observed stresses in each of the solder balls decreases as their location approaches the center of the chip.</p>
 
         <h3>Heat Distribution</h3>
 
-        <p><img src="heatdistribution.JPG" alt="heatdistribution" width="45%" margin-left="30%"></p>
+        <p><img src="heatdistribution.JPG" alt="heatdistribution" width="50%" margin-left="30%"></p>
 
         <p>hThe image shows that the heat generated at the center of the device conducts outward in all directions, and fully dissipates sometime before reaching the edge of the simulated motherboard. It is also interesting to note that the heat is dissipated significantly by the outer cover, but conducts easily through the PWB layers.</p>
         <p>This is likely due to the high The considerable change in temperature between the center and outer edges further confirms that the stresses shown on the solder balls are real concentrations that could lead to fatigue damage and reliability issues.</p>
 
         <h3>Solution</h3>
 
-        <p><img src="stressgw.JPG" alt="stressgw" width="45%" margin-left="30%"></p>
+        <p><img src="stressgw.JPG" alt="stressgw" width="50%" margin-left="30%"></p>
 
         <p>When underfill is added to the model for all BGAs, the stresses are significantly reduceed. The area where underfill is specifically added lowered the maximum stress by around 60%. Based on these results, it can be surmised that adding underfill has structural benefits. although it does not enhance the heat dissipation properties of the component, it also does not have a negative impact, therefore, it is recommended that underfill be included wherever BGAs are used within the Exynos 7420 to increase the fatigue life of the component, and consequently the whole Galaxy S6 device.</p>
 
