@@ -19,7 +19,8 @@
         <div class="title">
                 <a href="index.html">Back to main page</a>  
                 <h1>E-Bike Pedal Assist Conversion Kit</h1>
-                <p>As my Capstone project, my team was sponsored by VME, often known as Volunteers of Medical Engineering, and were assigned a young client with spinalve is to i disability. The objective is to convert our client's personalized trike, which was created by the previous capstone team, and implement a motor-assisted pedal. Our client has been satisfied with the personalized trike, however, they expressed their struggles to pedal on an incline due to restricted physical movements. My team - consist of James Allen, Diego Ferreira, Kevin Holtman and Sachitch Seneviratne had to come up with a system that help assist them pedaling without taking away the fun and exercise aspect of biking experience.</p>
+                <p>As my Capstone project, my team was sponsored by VME, often known as Volunteers of Medical Engineering, and were assigned a young client with spinalve is to i disability. The objective is to convert our client's personalized trike, which was created by the previous capstone team, and implement a motor-assisted pedal.</p>
+                <p>Our client has been satisfied with the personalized trike, however, they expressed their struggles to pedal on an incline due to restricted physical movements. My team - consist of James Allen, Diego Ferreira, Kevin Holtman and Sachitch Seneviratne had to come up with a system that help assist them pedaling without taking away the fun and exercise aspect of biking experience.</p>
         </div>
 
         <h3>Our Solution</h3>
@@ -36,7 +37,8 @@
 
         <p><img src="cdiagram.JPG" alt="cdiagram" width="45%" margin-left="30%"></p>
 
-        <p>I created a Circuit Diagram to better help explain the electrical subsystem of our solution. We would read user's input force on the pedal using torque sensor directly to Arduino Uno R3, which then would calculate just the right amount of force needed to assist user without reducing their efforts. Arduino would send the value to Motor Controller to dictate how much energy the motor should produce before assisting back to the pedal. The system is also equipped with Hall/Magnetic sensor located on the brake lever. The purpose is to shut the motor completely once brake lever is triggered to prevent the motor from continuously accelerating when not needed.</p>
+        <p>I created a Circuit Diagram to better help explain the electrical subsystem of our solution. We would read user's input force on the pedal using torque sensor directly to Arduino Uno R3, which then would calculate just the right amount of force needed to assist user without reducing their efforts.</p>
+        <p>Arduino would send the value to Motor Controller to dictate how much energy the motor should produce before assisting back to the pedal. The system is also equipped with Hall/Magnetic sensor located on the brake lever. The purpose is to shut the motor completely once brake lever is triggered to prevent the motor from continuously accelerating when not needed.</p>
         <p>Potentiometer is included to manually adjust or limit the motor's maximum output. Step down converter is also required to convert 36V from battery to 5V. Furthermore, since it's designed for a disabled individual, we included an energency button which shuts the whole system down and manual activation is required.</p>
 
         <h3>Drivetrain</h3>
@@ -47,7 +49,8 @@
 
         <h3>Motor</h3>
 
-        <p>With specifications of 36V, 350W, 12A rated current with 9 tooth sprocket, it could produce maximum power of 150RPM * Max Torque we want to supply. Our maximum target speed is 20 RPM on pedals by motor for comfort reasons. Therefore, 350-W/(150 RPM * 2pi/60) = 22.28 N-m 0.15 m pedal crank means 22.28 N-m/0.15 m = 148.5 N 148.5/9.81 m/s2 = 15.14 kg = 33.38 lbs 150/20 = 7.5 gear ratio 9 teeth * 7.5 = 67.5 teeth on chainring sprocket = ~59-tooth standard resulting in 6.56 gear ratio thus 150/6.56 = 22.9 RPM 6.56 * 33.38 lbf = 219 lbs > min of 200 lbs. </p>
+        <p>With specifications of 36V, 350W, 12A rated current with 9 tooth sprocket, it could produce maximum power of 150RPM * Max Torque we want to supply. Our maximum target speed is 20 RPM on pedals by motor for comfort reasons.</p>
+        <p>Therefore, 350-W/(150 RPM * 2pi/60) = 22.28 N-m 0.15 m pedal crank means 22.28 N-m/0.15 m = 148.5 N 148.5/9.81 m/s2 = 15.14 kg = 33.38 lbs 150/20 = 7.5 gear ratio 9 teeth * 7.5 = 67.5 teeth on chainring sprocket = ~59-tooth standard resulting in 6.56 gear ratio thus 150/6.56 = 22.9 RPM 6.56 * 33.38 lbf = 219 lbs > min of 200 lbs. </p>
 
         <h3>Bottom Bracket</h3>
 
@@ -63,7 +66,8 @@
 
         <p>This capstone project has not only provided us with invaluable technical experience but also honed our project management and teamwork skills. Despite numerous challenges, our team persisted, resulting in a successful and functional prototype.</p>
 
-        <p>Having to work with such lovely client made us remember why we wanted to be engineers in the first place, is has been confirmed that another capstone team would further improve our prototype design. I am thrilled to express my gratitude to our instructors and VME for entrusting this project to our team. This project was a significant step in our engineering journey, and we look forward to bringing more innovative solutions to real-world challenges.</p>
+        <p>Having to work with such lovely client made us remember why we wanted to be engineers in the first place, is has been confirmed that another capstone team would further improve our prototype design.</p>
+        <p>I am truly grateful to our instructors and VME for entrusting this project to our team. This project was a significant step in our engineering journey, and we look forward to bringing more innovative solutions to real-world challenges.</p>
             
         <p><img src="Team.jpg" alt="Team" width="45%" margin-left="30%"></p>
        
