@@ -43,7 +43,7 @@ iframe {
 
 a {
   align-items: center;
-  color: #fcf3de;
+  color: #ffffff;
   padding: 0.5rem 0.5rem;
   text-decoration: underline;
 }
@@ -67,7 +67,7 @@ body {
   padding-top: 0%;
   margin: 0;
   font-family: 'Prompt', sans-serif;
-  color: #fcf3de;
+  color: #f3e4bf;
   background: #040c0f;
   overflow-x: hidden;
 }
@@ -155,7 +155,7 @@ section {
   transform: translateX(-50%);
   z-index: 100;
   animation: bounce 2s infinite;
-  color: #fcf3de;
+  color: #f3e4bf;
   font-size: 50px;
   padding-left: 50%;
 }
